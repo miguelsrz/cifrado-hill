@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hill Cipher Encrypt/Decrypt</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="hillcipher.png">
+    <meta name="description" content="Simple hill cipher encrypt/decrypt with custom character sets.">
+</head>
+
+<body>
+    <div class="content">
+        <h2>Cifrado de Hill</h2>
+        <label for="character-set">Set de caracteres:</label>
+        <input type="text" id="character-set" value="abcdefghijklmnopqrstuvwxyz">
+        <br>
+        <label for="key">Matriz Clave:</label>
+        <input type="text" id="key" value="fccb">
+        <br>
+        <label for="plaintext">Texto plano:</label>
+        <textarea id="plaintext" rows="5" placeholder="Ingrese el texto plano:"></textarea>
+        <br>
+        <label for="ciphertext">Texto encriptado:</label>
+        <textarea id="ciphertext" rows="5" placeholder="Ingrese el texto encriptado:"></textarea>
+        <br>
+        <div id="message"></div>
+        <button id="encrypt">Encriptar</button>
+        <button id="decrypt">Desencriptar</button>
+    </div>
+
+    <footer>
+         Traducido al español para la presentacion del proyecto de Algebra Lineal
+         <br> Creado por <a href="https://omkargn.com" target="_blank">Omkar</a> | <a href="https://github.com/randusr923847/hillcipher" target="_blank">Github</a>
+            
+    </footer>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
